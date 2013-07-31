@@ -1,0 +1,22 @@
+{
+    "name": "jita032/design-pattern",
+    "homepage": "http://github.com/chiangtor/DesignPattern",
+    "description": "Practise on design pattern",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarod Chiang",
+            "email": "chiangtor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload" : {
+        "psr-0": {
+            "FluffycatCom\\Memento" : "src/fluffycat_com/memento/"
+        }
+    }
+
+}
