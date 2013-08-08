@@ -9,13 +9,14 @@
             "email": "chiangtor@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-
+        "phpunit/phpunit": "3.7.23"
     },
     "autoload" : {
         "psr-0": {
-            "FluffycatCom\\Memento" : "src/fluffycat_com/memento/"
+            "FluffycatCom\\Memento" : "src/fluffycat_com/memento/",
+            "PhpTheRightWay\\Factory" : "src/php_the_right_way/factory/"
         }
     }
 
