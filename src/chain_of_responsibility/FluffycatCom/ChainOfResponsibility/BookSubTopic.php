@@ -3,7 +3,6 @@ namespace FluffycatCom\ChainOfResponsibility;
 
  class BookSubTopic extends AbstractBookTopic {
 
-
     private $topic;
     private $parentTopic;
     private $title;

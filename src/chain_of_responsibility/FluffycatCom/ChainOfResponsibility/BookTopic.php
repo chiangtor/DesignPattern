@@ -1,6 +1,7 @@
 <?php
 namespace FluffycatCom\ChainOfResponsibility;
 
+
 class BookTopic extends AbstractBookTopic {
 
     private $topic;
@@ -28,3 +29,5 @@ class BookTopic extends AbstractBookTopic {
         }
     }
 }
+
+

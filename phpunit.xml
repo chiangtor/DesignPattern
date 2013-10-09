@@ -1,7 +1,11 @@
 <phpunit>
   <testsuites>
     <testsuite name="Design_Pattern">
-        <file>tests/factory/php_the_right_way/FactoryTest.php</file>
+        <!--        
+                    <file>tests/factory/php_the_right_way/FactoryTest.php</file>
+         -->
+
+        <file>tests//chain_of_responsibility/fluffycat_com</file>
     </testsuite>
   </testsuites>
 </phpunit>
