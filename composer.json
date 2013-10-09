@@ -15,8 +15,9 @@
     },
     "autoload" : {
         "psr-0": {
-            "FluffycatCom\\Memento" : "src/fluffycat_com/memento/",
-            "PhpTheRightWay\\Factory" : "src/php_the_right_way/factory/"
+            "FluffycatCom\\Memento" : "src/memento/",
+            "FluffycatCom\\ChainOfResponsibility" : "src/chain_of_responsibility",
+            "PhpTheRightWay\\Factory" : "src/factory/"
         }
     }
 

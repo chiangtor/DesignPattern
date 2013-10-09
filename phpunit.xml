@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Design_Pattern">
+        <file>tests/factory/php_the_right_way/FactoryTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
