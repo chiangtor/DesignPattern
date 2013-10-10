@@ -17,7 +17,9 @@
         "psr-0": {
             "FluffycatCom\\ChainOfResponsibility" : "src/chain_of_responsibility/",
             "FluffycatCom\\Memento" : "src/memento/",
-            "PhpTheRightWay\\Factory" : "src/factory/"
+            "PhpTheRightWay\\Factory" : "src/factory/",
+            "PhpTheRightWay\\Singleton":"src/singleton/"
+
         }
     }
 
