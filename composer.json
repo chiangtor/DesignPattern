@@ -4,23 +4,44 @@
     "description": "Practise on design pattern",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Jarod Chiang",
-            "email": "chiangtor@gmail.com"
-        }
+    {
+        "name": "Jarod Chiang",
+        "email": "chiangtor@gmail.com"
+    }
     ],
-    "minimum-stability": "stable",
-    "require": {
-        "phpunit/phpunit": "3.7.23"
-    },
-    "autoload" : {
-        "psr-0": {
-            "FluffycatCom\\ChainOfResponsibility" : "src/chain_of_responsibility/",
-            "FluffycatCom\\Memento" : "src/memento/",
-            "PhpTheRightWay\\Factory" : "src/factory/",
-            "PhpTheRightWay\\Singleton":"src/singleton/"
+        "minimum-stability": "stable",
+        "require": {
+            "phpunit/phpunit": "3.7.23"
+        },
+        "autoload" : {
+            "psr-0": {
+                "FluffycatCom\\AbstractFactory":"src/abstract_factory/",
+                "FluffycatCom\\Adapter":"src/adapter/",
+                "FluffycatCom\\Bridge":"src/bridge/",
+                "FluffycatCom\\Builder":"src/builder/",
+                "FluffycatCom\\ChainOfResponsibility":"src/chain_of_responsibility/",
+                "FluffycatCom\\Composite":"src/composite/",
+                "FluffycatCom\\Decorator":"src/decorator/",
+                "FluffycatCom\\Facade":"src/facade/",
+                "FluffycatCom\\Factory":"src/factory/",
+                "FluffycatCom\\FactoryMethod":"src/factory_method/",
+                "FluffycatCom\\Flyweight":"src/flyweight/",
+                "FluffycatCom\\Interpreter":"src/interpreter/",
+                "FluffycatCom\\Iterator":"src/iterator/",
+                "FluffycatCom\\Mediator":"src/mediator/",
+                "FluffycatCom\\Memento":"src/memento/",
+                "FluffycatCom\\Observer":"src/observer/",
+                "FluffycatCom\\Prototype":"src/prototype/",
+                "FluffycatCom\\Proxy":"src/proxy/",
+                "FluffycatCom\\Singleton":"src/singleton/",
+                "FluffycatCom\\State":"src/state/",
+                "FluffycatCom\\Strategy":"src/strategy/",
+                "FluffycatCom\\Template":"src/template/",
+                "FluffycatCom\\Visitor":"src/visitor/",
+                "PhpTheRightWay\\Factory" : "src/factory/",
+                "PhpTheRightWay\\Singleton":"src/singleton/"
 
-        }
+            }
     }
 
 }

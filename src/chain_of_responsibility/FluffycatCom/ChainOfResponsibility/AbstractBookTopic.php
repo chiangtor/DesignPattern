@@ -1,5 +1,6 @@
 <?php
 namespace FluffycatCom\ChainOfResponsibility;
+:wa
 
 abstract class AbstractBookTopic {
 
