@@ -26,11 +26,15 @@ class ArrayCaseReverse {
 
         for ($x = 0; $x < count($arrayIn); $x++) {
             if (in_array($arrayIn[$x], self::$uppercase_array)) {
+
                 $key = array_search($arrayIn[$x], self::$uppercase_array);
                 $array_out[$x] = self::$lowercase_array[$key];
+
             } elseif (in_array($arrayIn[$x], self::$lowercase_array)) {
+
                 $key = array_search($arrayIn[$x], self::$lowercase_array);
                 $array_out[$x] = self::$uppercase_array[$key];
+
             } else {
                 $array_out[$x] = $arrayIn[$x];
             }

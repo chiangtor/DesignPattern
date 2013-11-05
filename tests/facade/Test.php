@@ -2,6 +2,7 @@
 include __DIR__.'/../../../vendor/autoload.php';
 
 use FluffycatCom\Facade\Book;
+use FluffycatCom\Facade\CaseReverseFacade;
 
 $book = 
     new Book("Design Patterns",
@@ -11,10 +12,10 @@ echo "Original book title: ".$book->getTitle();
 echo PHP_EOL;
 
 
-#$bookTitleReversed = 
-#    CaseReverseFacade::reverseStringCase($book->getTitle());  
-#echo "Reversed book title: ".$bookTitleReversed;
-#echo PHP_EOL;
+$bookTitleReversed = 
+    CaseReverseFacade::reverseStringCase($book->getTitle());  
+echo "Reversed book title: ".$bookTitleReversed;
+echo PHP_EOL;
 
 
 

@@ -14,4 +14,5 @@ class CaseReverseFacade {
 
         return $reversedCaseString;
     }
+}
 

@@ -14,3 +14,5 @@ git-update:
 	git status . -s | awk '/ M/ {print $$2}' |xargs git add
 
 
+test:
+	phpunit -f
