@@ -1,7 +1,7 @@
 <phpunit>
   <testsuites>
     <testsuite name="Design_Pattern">
-        <directory>tests/bridge/fluffycat_com</directory>
+        <directory>tests/strategy/fluffycat_com</directory>
     </testsuite>
   </testsuites>
 </phpunit>
@@ -10,6 +10,7 @@
         processIsolation="true"
         verbose="true"
         debug="true">
+        <directory>tests/bridge/fluffycat_com</directory>
         <directory>tests/adapter/fluffycat_com</directory>
         <directory>tests/facade/fluffycat_com</directory>
                     <file>tests/factory/php_the_right_way/FactoryTest.php</file>
