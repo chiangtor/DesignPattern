@@ -1,0 +1,5 @@
+A director and  a builder work together to build an object.
+The director controls the bilding and  specifies what parts an variable will go into an object.
+The builder knows how to assemble the object given specification.
+
+
