@@ -1,11 +1,12 @@
 <phpunit>
   <testsuites>
     <testsuite name="Design_Pattern">
-        <directory>tests/builder/fluffycat_com</directory>
+        <directory>tests/abstract_factory/fluffycat_com</directory>
     </testsuite>
   </testsuites>
 </phpunit>
         <!--        
+        <directory>tests/command/fluffycat_com</directory>
 <phpunit colors="true"
         processIsolation="true"
         verbose="true"

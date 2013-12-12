@@ -21,6 +21,7 @@
                 "FluffycatCom\\Builder":"src/builder/",
                 "FluffycatCom\\ChainOfResponsibility":"src/chain_of_responsibility/",
                 "FluffycatCom\\Composite":"src/composite/",
+                "FluffycatCom\\Command":"src/command/",
                 "FluffycatCom\\Decorator":"src/decorator/",
                 "FluffycatCom\\Facade":"src/facade/",
                 "FluffycatCom\\Factory":"src/factory/",
