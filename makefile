@@ -15,4 +15,4 @@ git-update:
 
 
 test:
-	phpunit -f
+	phpunit -c phpunit.xml

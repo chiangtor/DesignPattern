@@ -1,7 +1,14 @@
 <phpunit>
   <testsuites>
     <testsuite name="Design_Pattern">
+<!--
         <directory>tests/abstract_factory/fluffycat_com</directory>
+        <directory>tests/adapter/fluffycat_com</directory>
+        <directory>tests/factory_method/fluffycat_com</directory>
+        <directory>tests/mediator/fluffycat_com</directory>
+        <directory>tests/state/fluffycat_com</directory>
+-->
+        <directory>tests/template/fluffycat_com</directory>
     </testsuite>
   </testsuites>
 </phpunit>

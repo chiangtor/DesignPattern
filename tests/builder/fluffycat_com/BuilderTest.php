@@ -18,7 +18,7 @@ class BuilderTest extends \PHPUnit_Framework_TestCase
         $pageDirector = new HTMLPageDirector($pageBuilder);
 
         $pageDirector->buildPage();
-        $page = $pageDirector->GetPage();
+        $page = $pageDirector->getPage();
 
         $echo ='<html><head><title>Testing the HTMLPage</title></head><body>Testing, testing, testing!Testing, testing, testing, or!Testing, testing, testing, more!</body></html>';
         $this->assertEquals( $echo, $page->showPage());
