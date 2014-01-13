@@ -7,8 +7,9 @@
         <directory>tests/factory_method/fluffycat_com</directory>
         <directory>tests/mediator/fluffycat_com</directory>
         <directory>tests/state/fluffycat_com</directory>
--->
         <directory>tests/template/fluffycat_com</directory>
+-->
+        <directory>tests/visitor/fluffycat_com</directory>
     </testsuite>
   </testsuites>
 </phpunit>
